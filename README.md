@@ -41,10 +41,10 @@ proxy.start({
 
 `node proxy.js`
 
-至此，看到 *Reverse Proxy listening at port 3001* ，说明反向代理已启动。
+至此，看到 *Reverse Proxy listening at port 3001* ，说明反向代理服务器已启动。
 
 
-修改 `config.proxy.js` 配置文件中的 `port` ，可以更改端口号。
+修改 `port` 参数，可以更改端口号。
 
 
 ## License
