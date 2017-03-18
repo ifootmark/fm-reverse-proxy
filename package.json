@@ -1,0 +1,48 @@
+{
+  "name": "fm-reverse-proxy",
+  "version": "0.0.1",
+  "description": "fm-reverse-proxy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run reverse-proxy",
+    "reverse-proxy": "node ./app.js"
+  },
+  "keywords": [
+    "fm-reverse-proxy",
+    "reverse-proxy",
+    "proxy"
+  ],
+  "homepage": "https://ifootmark.github.io/fm-reverse-proxy/",
+  "bugs": {
+    "url": "https://github.com/ifootmark/fm-reverse-proxy/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ifootmark/fm-reverse-proxy.git"
+  },
+  "author": "ifootmark@163.com",
+  "license": "MIT",
+  "bin": {
+    "fm-reverse-proxy": "./app.js"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.3",
+    "body-parser": "^1.17.1",
+    "cookie-parser": "^1.4.3",
+    "cross-env": "^3.1.4",
+    "express": "^4.14.1",
+    "http-proxy": "^1.16.2",
+    "morgan": "^1.8.1"
+  },
+  "devDependencies": {
+  },
+  "maintainers": [
+    {
+      "name": "ifootmark",
+      "email": "ifootmark@163.com"
+    }
+  ]
+}
